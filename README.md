@@ -16,12 +16,15 @@ Both Git and Github are version control systems (a system used to tracks changes
 
 ---
 ## Repository Setup
-
+- what init does and what it is
+- how to make repo on github and how to setup connection between local and remote
+- how make remote repo the default one to push to
+- how to add, commit, push
 
 
 ---
 ## Workflow & Commands
-
+- what are the habits you need and usual commands to use
 
 
 ---
