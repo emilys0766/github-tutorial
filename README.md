@@ -29,3 +29,7 @@ Both Git and Github are version control systems (a system used to tracks changes
 
 ---
 ## Rolling Back Changes
+- how to rollback
+  * from commit to stage
+  * from commit to editing
+  * from push to editing
