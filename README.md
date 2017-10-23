@@ -11,8 +11,8 @@ Both Git and Github are version control systems (a system used to tracks changes
 
 ---
 ## Initial Setup
-
-
+- how to get the ssh key + how to set it up on github
+- how to check if its added
 
 ---
 ## Repository Setup
