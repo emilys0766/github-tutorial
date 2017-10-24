@@ -24,10 +24,10 @@
   * `init`, your first `add` & `commit`, new repo on github, remote (done)
   * [20%]
 * ongoing workflow & commands
-  * status, add, commit, push
+  * status, add, commit, push (done)
   * [20%]
 * rolling back changes
-  * undo edit/add/commit/push
+  * undo edit/add/commit/push (done)
   * [20%]
 
 _NOTE: for each command, you should explain:_
@@ -37,14 +37,14 @@ _NOTE: for each command, you should explain:_
 
 ## _Other Requirements_
 
-* use MD syntax _(headings, bold, italics, etc)_
+* use MD syntax _(headings, bold, italics, etc)_ (done)
   * [5%]
-* use list(s) _(ordered and/or unordered)_
+* use list(s) _(ordered and/or unordered)_ (done)
   * [5%]
-* use code snippets _(single and/or multi-line)_
+* use code snippets _(single and/or multi-line)_ (done?)
   * [5%]
 
-### _Extra Credit_
+### _Extra Credit_ (WILL DO LATER)
 
 * error handling
   * what to do if you did `init` in the wrong directory  
@@ -55,7 +55,7 @@ _NOTE: for each command, you should explain:_
   * fork & `clone`, pull requests and `pull`  
   * [10%]  
 * screenshots
-  * [5%]
+  * [5%] 
 
 ---
 ### A note about plagiarism
