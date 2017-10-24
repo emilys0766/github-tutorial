@@ -31,12 +31,37 @@ With Github, you can make all kinds of things- websites, apps, and so much more!
         * Inside of your Github workspace (most likely named github-learning IDE), type in "ssh -T git@github.com"
             * You should then get a message saying "Hi <your username>! You've successfully authenticated, but GitHb does not provide shell access._"
 
-* Now you are ready to start coding with your new GitHub workspace!
+*Now you are ready to start coding with your new GitHub workspace!
 
 ---
 ## Repository Setup
 
+Before we start making your first repository, let's get a general idea of what each code does.
 
+* **cd** = to change directory or move through files.
+* **mkdir** = makes new files.
+* **git init** = to initialize (or start) a repository.
+* **touch (README.md)** = makes a "document" or a place to store text inside a file (which is where this tutorial is being typed in).
+* **git add ./git commit -m "<text>"/git push** = allows a person to save their progress in GitHub and leave a note at that point in the code.
+
+Now, let's make our first repository!
+
+* Make sure your in "workspace" first (if you are unsure of where you are in the code, use cd ~/workspace)
+* Next, use "mkdir" to make a new repository (i.e. mkdir first-repo).
+* From the workspace, change directory (cd) into the first-repo (cd first-repo)
+* Finally, type in "git init" to initialize the repo.
+    * **Make sure you are in the "first-repo" repository when using "git init".**
+
+
+Say you now want to make a file inside of this repository. This is how you would do it:
+
+* First, make sure the remote repository was made.
+    * To make a remote repository, go to [GitHub](github.com) and press the "+" on the top right. Press "new repository" and name the repository "first-repo".
+* Inside of "first-repo", type in "touch README(or any name).md". To open the file, you have to directly click on it on the left side-bar.
+* Type away whatever you want inside of the file. After you are done making changes to the file, make sure to save, add, commit a message (it is recommended to make the message relevent and useful for you), and push. 
+
+
+Congrats! You have successfully made your first repository and file in Github!
 
 ---
 ## Workflow & Commands

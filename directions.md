@@ -21,7 +21,7 @@
   * making a github account (done), SSH key (done)
   * [15%]
 * repo setup
-  * `init`, your first `add` & `commit`, new repo on github, remote
+  * `init`, your first `add` & `commit`, new repo on github, remote (done)
   * [20%]
 * ongoing workflow & commands
   * status, add, commit, push
