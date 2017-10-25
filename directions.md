@@ -44,7 +44,7 @@ _NOTE: for each command, you should explain:_
 * use code snippets _(single and/or multi-line)_ (done?)
   * [5%]
 
-### _Extra Credit_ (WILL DO LATER)
+### _Extra Credit_ (WILL DO WEDNESDAY)
 
 * error handling
   * what to do if you did `init` in the wrong directory  
@@ -55,6 +55,7 @@ _NOTE: for each command, you should explain:_
   * fork & `clone`, pull requests and `pull`  
   * [10%]  
 * screenshots
+        *
   * [5%] 
 
 ---
