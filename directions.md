@@ -50,9 +50,9 @@ _NOTE: for each command, you should explain:_
   * what to do if you did `init` in the wrong directory  
   * how to completely remove a repository (local & remote)
   * etc
-  * [10%]  
+  * [10%]  (done)
 * collaboration  
-  * fork & `clone`, pull requests and `pull`  
+  * fork & `clone`, pull requests and `pull`  (done)
   * [10%]  
 * screenshots
         *

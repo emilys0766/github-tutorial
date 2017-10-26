@@ -42,7 +42,7 @@ Before we start making your first repository, let's get a general idea of what e
 * **`mkdir`** = makes new files.
 * **`git init`** = to initialize (or start) a repository.
 * **`touch (README.md)`** = makes a "document" or a place to store text inside a file (which is where this tutorial is being typed in).
-* **`git add .`/`git commit -m "<text>"`/`git push** = allows a person to save their progress in GitHub and leave a note at that point in the code.
+* **`git add .`/`git commit -m "<text>"`/`git push`** = allows a person to save their progress in GitHub and leave a note at that point in the code.
 
 Now, let's make our first repository!
 
@@ -50,7 +50,7 @@ Now, let's make our first repository!
 2. Next, use `mkdir` to make a new repository (i.e. mkdir first-repo).
 3. From the workspace, change directory (cd) into the first-repo (cd first-repo)
 4. Finally, type in `git init` to initialize the repo.
-    * **Make sure you are in the "first-repo" repository when using 'git init'.**
+    * **Make sure you are in the "first-repo" repository when using `git init`.**
 
 
 Say you now want to make a file inside of this repository. This is how you would do it:
@@ -68,7 +68,7 @@ Congrats! You have successfully made your first repository and file in Github!
 
 Now that you've got the hang of using GitHub, let's review some more commands in-depth:
 
-* **`git status`:** Git status is used to keep check on any progress made in a repository. Usually if you are coding for a big project and don't know where you are at, git status is a great way to get an understanding of what you're doing.
+* **`git status`:** Git status is used to list all of the files and keep check on any progress made in a repository. Usually if you are coding for a big project and don't know where you are at, git status is a great way to get an understanding of what you're doing.
 * **`git add .`:** Git add revamps any files in the repository to the index. This command is usually followed after with...
 * **`git commit -m`:** Git commit helps us make note of what is going on in the code, similar to making a comment. This command is used after git add, and is accompanied by...
 * **`git push`**: Git push upgrades the remote repository with any changes made in the repository since your last commit.
@@ -102,11 +102,27 @@ In extreme cases where you need to undo _pushed commits_, you can do these steps
 
 **Note: Those listed in bold will reset past history and delete _ALL_ commits, so be careful before using them.**
 
-Now that you have learned the basics, have fun coding, and "git" better!
-
 ---
 
 ## Error Handling
 
+When using GitHub, there can be a multitude of things that can and will go wrong. Generally, most of these mistakes are small and can be resolved by using `git status` to check for any errors. However, there are some exceptions:
 
+As mentioned above, **make sure to be in a repository when using `git init`**. If you do `git init` in the workspace, it will be initialized (which you can tell if you see workspace (master). If you do accidentally do this however, type in `rm -rf .git`, which will remove the local repository and return you back to your workspace.
 
+* As a side note, if you want to remove a repository (remote, not local), first you would use `git remote rm [name of remote]` and follow it up with `git remote -v`.
+
+---
+
+## Collaboration
+
+Your GitHub repositories are not only just limited to you, but you can also share and allow people to join as well! And there are many ways to interact with one's repos:
+
+* **Cloning:** This method allows you to make your own copy of another person's repository, which allows you look at it but not interact with it's code.
+* **Forking:** To "fork" someone's repository is similar to that of cloning, except now you can make edits to the repo. This allows you to make any changes you want to your copy of the repo, which you can then send to the original poster via "pull" requests".
+
+Note: Both forking and cloning require for you to copy and paste the repo's url (SSH) into your workspace before being able to do anything mentioned above.
+
+---
+
+Now that you have the basics down: "git" more practice, "git" experience with collaboration and experimenting, and "git" better!
